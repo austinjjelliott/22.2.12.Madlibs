@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MadLibs</title>
+  </head>
+  <body>
+    <h1>Madlibs</h1>
+    <br />
+    <style>
+      h1 {
+        display: flex;
+        justify-content: center;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      button {
+        max-width: 10%;
+        margin: 5px;
+      }
+    </style>
+    <section>
+      <form method="post">
+        <label
+          >Place: <input name="place" type="text" placeholder="Place" />
+        </label>
+        <label
+          >Noun: <input name="noun" type="text" placeholder="Noun"
+        /></label>
+        <label
+          >Verb: <input name="verb" type="text" placeholder="Verb"
+        /></label>
+        <label
+          >Adjective:
+          <input name="adjective" type="text" placeholder="Adjective"
+        /></label>
+        <label
+          >Plural Noun:
+          <input name="plural_noun" type="text" placeholder="Plural Noun"
+        /></label>
+        <button id="button" type="submit" name="">Submit</button>
+      </form>
+    </section>
+  </body>
+</html>
